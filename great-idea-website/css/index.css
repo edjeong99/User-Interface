@@ -65,26 +65,29 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.top-menu{
+.container{
+	width : 800px;
+	margin: 0 auto;
+}
 
+.top-menu{
 	border : 1px solid red;
 	position: fixed;
 	width: 100%;
 	background: lightgray;
-	padding: 15px 0;
+
 	z-index: 100;
 }
 
 .top-menu header{
-	margin: 0 auto;
+	/* margin: 0 auto; */
 	width : 800px;
-	border : 1px solid red;
+	/* border : 1px solid red; */
 	position: relative;
 }
 .top-menu nav{
 	/* display : inline-block; */
 	padding : 20px;
-	border : 1px solid red;
 }
 
 .top-menu a{
@@ -102,8 +105,8 @@ header .logo {
 .title{
 	
 	padding-top: 150px;
-	width : 800px;
-	margin:0 auto;
+	/* width : 800px; */
+	/* margin:0 auto; */
 }
 
 .title .title-left{
@@ -130,7 +133,7 @@ header .logo {
 }
 
 .main-content{
-	width : 800px;
+	/* width : 800px; */
 	margin : 50px auto;
 	padding : 50px 0;
 	border-bottom: 1px solid black;
@@ -154,13 +157,13 @@ header .logo {
 }
 
 .contact{
-	width : 800px;
+	/* width : 800px; */
 	margin: 0 auto;
 }
 
 footer{
 	text-align: center;
-	width : 800px;
-	margin : 0 auto;
+	/* width : 800px;
+	margin : 0 auto; */
 	padding : 30px;
 }
